@@ -1,0 +1,178 @@
+/* Base reset */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* box-sizing and font sizing */
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  @media (max-width: 28.75em) {
+    html {
+      font-size: 55%;
+    }
+  }
+  
+  #main {
+    position: relative;
+  }
+  
+  #header {
+    top: 0;
+    left: 0;
+    justify-content: space-around;
+    position: fixed;
+    background-color: #00008B;
+    width: 100%;
+    display: flex;
+    min-height: 75px;
+    padding: 0px 20px;
+    align-items: center;
+  }
+  
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    #header-img {
+      margin-top: 15px;
+      width: 100%;
+      position: relative;
+    }
+  }
+  
+  form {
+      display: block !important;
+  }
+  
+  input {
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  ul {
+    display: flex;
+    margin-right: 2rem;
+    list-style: none;
+  }
+  
+  ol {
+    list-style: none;
+    font-size: 18px;
+    display:flex;
+    flex-direction: column;
+    font-weight: normal;
+  
+  }
+  
+  ol li {
+    height: 10vh
+  }
+  
+  li {
+    display: list-item;
+  }
+  
+  .nav-link:hover {
+    background-color: red;
+  }
+  
+  .nav-link {
+    display: block;
+    color: white;
+    padding: 2rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+    background: #ddd
+  }
+  
+  
+  .container {
+      max-width: 1000px;
+      width: 100%;
+      margin: 0 auto;
+      
+  }
+  
+  #Features {
+    margin-top: 30px;
+    background: #00008B;
+    color: white;
+    box-shadow:  5px 5px black;
+    font-size: 22px;
+  }
+  
+  #How-It-Works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  #how-it-works > iframe {
+    max-width: 560px;
+    width: 100%;
+  }
+  
+  #Pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    color: white;
+    background: #00008B;
+    box-shadow:  5px 5px black;
+  }
+  
+  .product h2, button {
+    margin-bottom: 20px;
+    color: red;
+  }
+  
+  button, #submit {
+    background: orange;
+    color: black;
+    font-size: 18px;
+    border-radius: 2px;
+    border: 0;
+    width: 15vw;
+    height: 7vh;
+  }
+  
+  footer {
+    margin-top: 30px;
+    background-color: #00008B;
+    padding: 20px;
+  }
+  
+  

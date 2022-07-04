@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <main class="main">
+  <header>
+  
+    <h1 id="title">Uber Survey Form</h1>
+  
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+  
+</header>
+  <form id="survey-form" method="POST" action="">
+    <div class="name">
+      <label for="name" id="name-label">Name</label></br>
+      <input type="text" id="name" required placeholder="abcdefg" value="">
+    </div>
+  
+    <div class="email">
+      <label for="email" id="email-label">Email</label></br>
+      <input type="email" id="email" required placeholder="abc@ex.com" value="">
+    </div>
+
+    <div class="number">
+      <label for="number" id="number-label">Number</label></br>
+      <input type="number" placeholder="4" value="" id="number" required min=2 max=5>
+    </div>
+
+    <div class="dropdown">
+      <label for="select-vehicle">Select Vehicle</label>
+      <select id="dropdown" placeholder="select an option">
+        <option id="car" value="car">Car</option>
+        <option id="boda" value="boda">Boda</option>
+        <option id="bajaj" value="bajaj">Bajaj</option>
+      </select>
+    </div>
+
+    <div>
+      <p>Are you?</p>
+    </div>
+
+    <div class="radio-btn-group">
+      
+        <input type="radio" name="sex" id="male" value="male"/><label for="male">Male</label>
+      </br>
+        <input type="radio" name="sex" id="female" value="female"/><label for="female">Female</label>
+      
+    </div>
+
+    <div>
+      <p>Choose your mode of payment.</p>
+    </div>
+
+    <div class="checkbox">
+      <input type="checkbox" name="payments" value="credit-card" id="credit-card"/><label for="credit-card">Credit Card</label> </br>
+
+      <input type="checkbox" name="payments" value="cash" id="cash"/><label for="cash">Cash</label> </br>
+
+      <input type="checkbox" name="payments" value="paypal" id="paypal"/><label for="paypal">Paypal</label>
+    </div>
+
+    <div class="text-area">
+      <label for="text-area"> Any suggestions on how we can improve our services?</label> 
+      <textarea id="text-area" rows"5" columns="33"></textarea>
+    </div>
+
+    <div class="submit-btn">
+      <input type="submit" id="submit"/>
+    </div>
+
+  </form>
+</main>
+
+  </body>
+</html>
+

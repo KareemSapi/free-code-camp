@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Documentation</title>
+  </head>
+  <body>
+    <main id="main-doc">
+     <div id="box-1">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <div class="text">
+          <p>
+            JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+          </p>
+          <p>
+             Do not confuse JavaScript with the <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">Java programming language</a>. Both "Java" and "JavaScript" are trademarks or registered trademarks of Oracle in the U.S. and other countries. However, the two programming languages have very different syntax, semantics, and use.
+          </p>
+        </div>
+      </section>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>What you should already know</header>
+        <p>
+          This guide assume you already have basic understanding of the following: <br/>
+          <ul>
+            <li>A general understanding of the Internet and the World Wide Web (www).</li>
+            <li>Good knowledge of Hyper Text Markup Language (HTML).</li>
+            <li>Some basics about programming.</li>
+          </ul>
+        </p>
+      </section>
+      <section class="main-section" id="Hello_World">
+        <header>Hello World</header>
+        <p>To get started writting JavaScript, open any web browser of your liking and open the developer tools. </p>
+        <p><code>
+          function helloWorld(){
+            console.log('hello world')
+          }
+        </code></p>
+        <p>
+Copy the above code and paste it athe your browser's console then call the function by writing <code>helloWorld()</code> on your browser's console.
+        </p>
+      </section>
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <p>
+          A variable is a container for a value, like a number we might use in a sum, or a string that we might use as part of a sentence.
+        </p>
+        <p>
+The following keywords are used to declare variables:
+         <ul>
+           <li><code> var </code></li>
+           <li><code>let</code></li>
+         </ul>
+        </p>
+        <p>
+          Although the above keywords are used for variable declaration but there is a difference betwwen them:
+          <ol>
+          <li>
+            The <code> var </code> keyword to redeclare variables hence it is unadvisable to use it outside of a function scope.
+           </li>
+           <li>
+             The <code>let</code> keyword doesn't allow to redeclare variables meaning an error will be thrown If you declare the variable more than once in the block.
+           </li>
+          </ol>
+        </p>
+      </section>
+      <section class="main-section" id="Function_Declarations">
+        <header>Function Declarations</header>
+        <p>
+          A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:
+          <ul>
+            <li>The name of the function</li>
+            <li>
+              A list of arguments to the function, enclosed in parentheses and separated by commas.
+            </li>
+            <li>
+              The JavaScript statements that define the function, enclosed in curly brackets, { }.
+            </li>
+          </ul>
+        </p>
+
+        <p>
+          For example, the following code defines a simple function named square:
+          <p>
+            <code>
+              function square(number) { return number * number; }
+            </code>
+          </p>
+        </p>
+        <p>
+          The function square takes one argument, called number. The function consists of one statement that says to return the argument of the function (that is, number) multiplied by itself. The return statement specifies the value returned by the function.
+        </p>
+
+      </section>
+      <section class="main-section" id="References">
+        <header>References</header>
+        <p>
+          All the documentation in this page is obtained from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">Mozilla Developer Network (MDN)</a>
+        </p>
+      </section>
+    </div>
+      <nav id="navbar">
+        <header>JS Docs</header>
+            
+              <a href="#Introduction" class="nav-link">
+                <p>Introduction</p>
+              </a>
+              <a href="#What_you_should_already_know" class="nav-link">
+                <p>What you should already know</p>
+              </a>
+              <a href="#Hello_World" class="nav-link">
+                <p>Hello World</p>
+              </a>
+              <a href="#Variables" class="nav-link">
+                <p>Variables</p>
+              </a>
+              <a href="#Function_Declarations" class="nav-link">
+                <p>Function Declarations</p>
+              </a>
+              <a href="#References" class="nav-link">
+                <p>References</p>
+              </a>
+      </nav>
+    </main>
+  </body>
+</htmL>

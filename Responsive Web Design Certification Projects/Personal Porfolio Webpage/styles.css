@@ -1,0 +1,131 @@
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* box-sizing and font sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+main {
+  font-family: mono;
+  font-size: 1.6rem;
+  }
+
+#navbar {
+  top: 0;
+  left: 0;
+  justify-content: flex-end;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  z-index: 10;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+ul {
+  display: flex;
+  margin-right: 2rem;
+  list-style: none;
+}
+
+li {
+  display: list-item;
+}
+
+.nav-link:hover {
+  background-color: red;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  padding: 2rem;
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background: red;
+}
+
+#projects {
+  background-color:green;
+  text-align: center;
+  padding: 10rem 2rem;
+}
+
+#projects h1 {
+  margin-bottom: 30px;
+}
+
+.project-tile a {
+  display: inline-block;
+  background: black;
+  color: white;
+}
+
+#contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  padding: 0 2rem;
+  background: grey;
+}
+
+.contacts {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.github {
+  background: black;
+  color: white;
+  margin-right: 15px;
+  border-radius: 5px
+}
+
+.mail {
+  background: white;
+  color: black;
+  margin-right: 15px;
+  border-radius: 5px
+}
+
+.linked-in {
+  background: blue;
+  color: black;
+  border-radius: 5px
+}
+
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: black;
+  color: white;
+}

@@ -1,0 +1,90 @@
+header {
+    text-align: center;
+  }
+  
+  body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCDOlkS0VpZHe0Kx1kTOAcbmwtyENg9GpulQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .main {
+    background: #D3D3D3;
+    opacity: 0.9;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px black;
+  }
+  
+  .dropdown, .number, .email, .name {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #dropdown, #number, #email, #name, #text-area {
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  div{
+  margin: 0 0 15px 0;
+  height: auto;
+  }
+  
+  label {
+    width: 30%;
+    font-size: 18px;
+    padding-left: 15px;
+  }
+  
+  div p{
+    font-size: 18;
+    border-style: solid;
+    border-width: thick;
+    border-right: 0;
+    border-left: 0;
+  }
+  
+  p{
+    font-size: 18;
+    border-style: solid;
+    border-width: thick;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+  }
+  
+  .text-area {
+    border-style: solid;
+    border-width: thick;
+    border-right: 0;
+    border-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-area label {
+    width: 100%;
+    margin: 10px 0 0 0 !important;
+  }
+  
+  #text-area {
+    margin: 10px 0 10px 0;
+  }
+  
+  #submit {
+    margin: 0 40% 0 ;
+    font-size: 24px;
+    background: yellow;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  #survey-form {
+    text-align: left;
+    margin:auto;
+  }
+  
+  
